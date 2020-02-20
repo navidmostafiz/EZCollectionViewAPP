@@ -8,14 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, DataPass {
 
     var users:[User] = []
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Load UICollectionView cells with dummy user list
         users = getDummyUsers()
+        
+        //Call API to fetch online user data asynchronously, then reload CV
+        let userAPICaller = UserAPICaller()
+        userAPICaller.delegate = self
+        userAPICaller.getAllUsersFromURL_ASYNC()
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -30,6 +36,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "userCell", for: indexPath) as! UserCell
         cell.userLabel.text = theUser.userName
         return cell
+    }
+    
+    func showResultWith(userList: [User]) -> Void {
+        users = userList
+        collectionView.reloadData()
     }
     
     func getDummyUsers() -> [User] {

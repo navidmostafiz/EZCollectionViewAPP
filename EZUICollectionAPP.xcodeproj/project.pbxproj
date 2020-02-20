@@ -16,6 +16,7 @@
 		6D29DFC423FF214F00237F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D29DFC223FF214F00237F9F /* LaunchScreen.storyboard */; };
 		6D29DFCC23FF21D700237F9F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFCB23FF21D700237F9F /* UserCell.swift */; };
 		6D29DFCE23FF222E00237F9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFCD23FF222E00237F9F /* User.swift */; };
+		6D9481C123FF2B070065AFA1 /* userAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9481C023FF2B070065AFA1 /* userAPICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6D29DFC523FF214F00237F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D29DFCB23FF21D700237F9F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		6D29DFCD23FF222E00237F9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D9481C023FF2B070065AFA1 /* userAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userAPICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6D29DFC223FF214F00237F9F /* LaunchScreen.storyboard */,
 				6D29DFC523FF214F00237F9F /* Info.plist */,
 				6D29DFBD23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld */,
+				6D9481C023FF2B070065AFA1 /* userAPICaller.swift */,
 			);
 			path = EZUICollectionAPP;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				6D29DFBF23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld in Sources */,
 				6D29DFB923FF214E00237F9F /* ViewController.swift in Sources */,
+				6D9481C123FF2B070065AFA1 /* userAPICaller.swift in Sources */,
 				6D29DFCE23FF222E00237F9F /* User.swift in Sources */,
 				6D29DFB523FF214E00237F9F /* AppDelegate.swift in Sources */,
 				6D29DFCC23FF21D700237F9F /* UserCell.swift in Sources */,
