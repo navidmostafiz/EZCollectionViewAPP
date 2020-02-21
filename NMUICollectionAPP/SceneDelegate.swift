@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  EZUICollectionAPP
+//  NMUICollectionAPP
 //
 //  Created by Navid on 2/20/20.
 //  Copyright © 2020 UnitedStar. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  EZUICollectionAPP
+//  NMUICollectionAPP
 //
 //  Created by Navid on 2/20/20.
 //  Copyright © 2020 UnitedStar. All rights reserved.
@@ -53,5 +53,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return onlineUsers
     }
 
+}
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let cellWidth = (collectionView.frame.size.width/2) - 6
+        return CGSize(width: cellWidth, height: 30)
+    }
 }
 

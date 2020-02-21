@@ -11,7 +11,6 @@
 		6D29DFB723FF214E00237F9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFB623FF214E00237F9F /* SceneDelegate.swift */; };
 		6D29DFB923FF214E00237F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFB823FF214E00237F9F /* ViewController.swift */; };
 		6D29DFBC23FF214E00237F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D29DFBA23FF214E00237F9F /* Main.storyboard */; };
-		6D29DFBF23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFBD23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld */; };
 		6D29DFC123FF214F00237F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D29DFC023FF214F00237F9F /* Assets.xcassets */; };
 		6D29DFC423FF214F00237F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D29DFC223FF214F00237F9F /* LaunchScreen.storyboard */; };
 		6D29DFCC23FF21D700237F9F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29DFCB23FF21D700237F9F /* UserCell.swift */; };
@@ -20,12 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D29DFB123FF214E00237F9F /* EZUICollectionAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZUICollectionAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D29DFB123FF214E00237F9F /* NMUICollectionAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMUICollectionAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D29DFB423FF214E00237F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D29DFB623FF214E00237F9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6D29DFB823FF214E00237F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D29DFBB23FF214E00237F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D29DFBE23FF214E00237F9F /* EZUICollectionAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZUICollectionAPP.xcdatamodel; sourceTree = "<group>"; };
 		6D29DFC023FF214F00237F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D29DFC323FF214F00237F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D29DFC523FF214F00237F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +46,7 @@
 		6D29DFA823FF214E00237F9F = {
 			isa = PBXGroup;
 			children = (
-				6D29DFB323FF214E00237F9F /* EZUICollectionAPP */,
+				6D29DFB323FF214E00237F9F /* NMUICollectionAPP */,
 				6D29DFB223FF214E00237F9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +54,12 @@
 		6D29DFB223FF214E00237F9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D29DFB123FF214E00237F9F /* EZUICollectionAPP.app */,
+				6D29DFB123FF214E00237F9F /* NMUICollectionAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D29DFB323FF214E00237F9F /* EZUICollectionAPP */ = {
+		6D29DFB323FF214E00237F9F /* NMUICollectionAPP */ = {
 			isa = PBXGroup;
 			children = (
 				6D29DFB423FF214E00237F9F /* AppDelegate.swift */,
@@ -73,18 +71,17 @@
 				6D29DFC023FF214F00237F9F /* Assets.xcassets */,
 				6D29DFC223FF214F00237F9F /* LaunchScreen.storyboard */,
 				6D29DFC523FF214F00237F9F /* Info.plist */,
-				6D29DFBD23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld */,
 				6D9481C023FF2B070065AFA1 /* userAPICaller.swift */,
 			);
-			path = EZUICollectionAPP;
+			path = NMUICollectionAPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D29DFB023FF214E00237F9F /* EZUICollectionAPP */ = {
+		6D29DFB023FF214E00237F9F /* NMUICollectionAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D29DFC823FF214F00237F9F /* Build configuration list for PBXNativeTarget "EZUICollectionAPP" */;
+			buildConfigurationList = 6D29DFC823FF214F00237F9F /* Build configuration list for PBXNativeTarget "NMUICollectionAPP" */;
 			buildPhases = (
 				6D29DFAD23FF214E00237F9F /* Sources */,
 				6D29DFAE23FF214E00237F9F /* Frameworks */,
@@ -94,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = EZUICollectionAPP;
+			name = NMUICollectionAPP;
 			productName = EZUICollectionAPP;
-			productReference = 6D29DFB123FF214E00237F9F /* EZUICollectionAPP.app */;
+			productReference = 6D29DFB123FF214E00237F9F /* NMUICollectionAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D29DFAC23FF214E00237F9F /* Build configuration list for PBXProject "EZUICollectionAPP" */;
+			buildConfigurationList = 6D29DFAC23FF214E00237F9F /* Build configuration list for PBXProject "NMUICollectionAPP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D29DFB023FF214E00237F9F /* EZUICollectionAPP */,
+				6D29DFB023FF214E00237F9F /* NMUICollectionAPP */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D29DFBF23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld in Sources */,
 				6D29DFB923FF214E00237F9F /* ViewController.swift in Sources */,
 				6D9481C123FF2B070065AFA1 /* userAPICaller.swift in Sources */,
 				6D29DFCE23FF222E00237F9F /* User.swift in Sources */,
@@ -302,13 +298,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R46C323S64;
-				INFOPLIST_FILE = EZUICollectionAPP/Info.plist;
+				INFOPLIST_FILE = NMUICollectionAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.EZUICollectionAPP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.NMUICollectionAPP;
+				PRODUCT_NAME = NMUICollectionAPP;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,13 +316,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R46C323S64;
-				INFOPLIST_FILE = EZUICollectionAPP/Info.plist;
+				INFOPLIST_FILE = NMUICollectionAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.EZUICollectionAPP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = navid.mostafiz.NMUICollectionAPP;
+				PRODUCT_NAME = NMUICollectionAPP;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D29DFAC23FF214E00237F9F /* Build configuration list for PBXProject "EZUICollectionAPP" */ = {
+		6D29DFAC23FF214E00237F9F /* Build configuration list for PBXProject "NMUICollectionAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D29DFC623FF214F00237F9F /* Debug */,
@@ -344,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D29DFC823FF214F00237F9F /* Build configuration list for PBXNativeTarget "EZUICollectionAPP" */ = {
+		6D29DFC823FF214F00237F9F /* Build configuration list for PBXNativeTarget "NMUICollectionAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D29DFC923FF214F00237F9F /* Debug */,
@@ -354,19 +350,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6D29DFBD23FF214E00237F9F /* EZUICollectionAPP.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6D29DFBE23FF214E00237F9F /* EZUICollectionAPP.xcdatamodel */,
-			);
-			currentVersion = 6D29DFBE23FF214E00237F9F /* EZUICollectionAPP.xcdatamodel */;
-			path = EZUICollectionAPP.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6D29DFA923FF214E00237F9F /* Project object */;
 }
